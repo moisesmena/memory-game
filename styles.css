@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh; /*viewport height*/
+  display: flex;
+  background: #2b2b30;
+  flex-direction: column;
+}
+
+.card-game {
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  
+
+}
+
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 4px rgba(223, 123, 69, 0.4);
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.back-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 5px;
+  background: #ff7300;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 5px;
+  background: #ff7300;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+
+button {
+  color: black;
+  background-color: #ff4c06;
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+button:hover {
+  color: #ff4000;
+  background: #2b2b30;
+  box-shadow: 6px 6px 6px rgba(223, 123, 69, 0.5);
+}
+
+
+/*
+.button {
+  margin-bottom: 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+*/
+
+.button {
+    margin: auto;
+
+    margin-top: 15px;
+
+}
