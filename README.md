@@ -1,6 +1,7 @@
 # Memory Card Game
 
 This is the famous "Memory Card Game": is a card game in which cards are laid face down and two cards are flipped face up on each turn. The object of the game is to turn over pairs of matching cards. 
+A restart button (f5) has been included at the site bottom.
 
 Live preview here: [https://mmena4.github.io/memory-game/.](https://mmena4.github.io/memory-game/)
 
