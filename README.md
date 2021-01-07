@@ -36,7 +36,7 @@ Happy to grow the 'Memory Card Game' project! Want to contribute? please read [C
 
 ## Authors ✒️
 
-* **Moisés Mena** - [PurpleBooth](https://github.com/mmena4)
+* **Moisés Mena** - [Visit my GitHub!](https://github.com/mmena4)
 
 
 ## License 📄
